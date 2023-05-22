@@ -1,3 +1,4 @@
-## Demo https://crud-clubs-2-frontend-1k20ext6v-joaquinluis.vercel.app/
+## Demo https://crud-clubs-2-frontend.vercel.app/
 
-## Available Scripts
+## Description
+This is the frontEnd repository a CRUD application for clubs. It allows you to create, read, update and delete clubs.
