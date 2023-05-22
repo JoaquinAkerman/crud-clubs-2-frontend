@@ -1,2 +1,3 @@
-# crud-clubs-2-frontend
- Front-end repository contains the client-side code for the crud-clubs app
+For start run `npm run start` in root folder
+
+The front-end repository contains the client-side code for the application. It is responsible for rendering the user interface and handling user interactions. This repository utilizes technologies such as HTML, CSS, and JavaScript to create an interactive and visually appealing user experience. It communicates with the server-side API to fetch data and perform various actions.
