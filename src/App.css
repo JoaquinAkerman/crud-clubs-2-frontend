@@ -290,3 +290,27 @@ ul {
   margin-top: 10px;
   margin: 10px;
 }
+
+.warning {
+  background-color: #f1efee;
+  color: #ee0808;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.warning p {
+  margin: 0;
+}
+
+.demo-link{
+  color: #000000;
+  background-color: rgb(255, 123, 123);
+  max-width: 680px;
+  padding: 10px;
+  white-space: nowrap;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
