@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 
 import { ClubEditionForm } from "./ClubEditionForm";
+import { demoAlert } from "../utils/demoAlert";
 import { handleDelete, handleUpdate } from "../modules/api";
 import { serverBaseUrl } from "../modules/serverUrl";
+
+
 
 const ClubList = ({ clubs, onClubSelect }) => {
   const serverImagesBaseUrl = `${serverBaseUrl}/public/static/images/`;
@@ -67,7 +70,7 @@ const ClubList = ({ clubs, onClubSelect }) => {
           <button className="btn btn-warning" onClick={() => handleEdit(club)}>
             Edit club
           </button>
-          <button className="btn btn-danger" onClick={() => handleDelete(club)}>
+          <button className="btn btn-danger" onClick={() => demoAlert()}>
             Delete club
           </button>
         </div>

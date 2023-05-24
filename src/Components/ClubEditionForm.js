@@ -18,7 +18,7 @@ const ClubEditionForm = ({ editClub, handleUpdateClub, handleCancelUpdate }) => 
   return (
     <div className="edit-club-form">
       <h3>Edit Club</h3>
-      {showWarning && <p className="warning" >{demoWarning}</p>}
+      {showWarning && <div>{demoWarning}</div>}
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
